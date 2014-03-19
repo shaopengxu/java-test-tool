@@ -76,7 +76,7 @@ public class DataAccess {
 		String fileName = getObjectFileName(o.getClass().getSimpleName(), id);
 		checkDirExist(o.getClass().getSimpleName(), id);
 		try {
-			// TODO 可以实现读写锁
+			// TODO 
 			Object lock = getFileLockObject(o.getClass().getSimpleName(), id);
 			synchronized (lock) {
 				ObjectOutputStream out = new ObjectOutputStream(

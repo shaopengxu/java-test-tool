@@ -12,9 +12,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 一次加载策略，加载后不再从文件读取
  * 
- * @author 37wan
  * 
  */
 public class DataAccess {
